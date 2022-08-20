@@ -1,3 +1,3 @@
-# [My Website](https://jeherillajanwar.github.io/ishaan328069/)
+# [My Website](https://jeherillajanwar.github.io/328069/)
 
 
