@@ -70,8 +70,8 @@
 .image_image {
     background: rgb(196, 196, 196);
     background-image: url("../images/ishaan.jpg");
-    width: 150px;
-    height: 150px;
+    width: 1px;
+    height: 1px;
     border-radius: 5%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,7 +81,7 @@
     background-color: rgb(154, 167, 201);
     border: 2px solid rgb(245, 225, 255);
     box-shadow: -10px -10px 20px #fdf9ff77, 10px 10px 20px rgba(115, 107, 139, 0.137);
-    margin-left: 0;
+    margin-left: 15px;
     animation: focus 1.1s ease-in-out 1;
 }
 
