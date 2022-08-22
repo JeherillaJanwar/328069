@@ -1,5 +1,4 @@
 var getIP;
-// https://codepen.io/Milleus/pen/YzKOjoO
 let typed = "";
 const element = document.querySelector(".typity");
 
@@ -79,13 +78,13 @@ function notifyRobot(ip) {
     var params = {
         username: ip,
         avatar_url: "",
-        content: `Someone visited your FinalWebpage site`
+        content: `Someone visited your 328069 site`
     }
     if (ip == "" || ip == undefined) {
         params = {
             username: "My Webhook Name",
             avatar_url: "",
-            content: `Someone visited your FinalWebpage site`
+            content: `Someone visited your 328069 site`
         }
     }
     const request = new XMLHttpRequest();
@@ -103,7 +102,7 @@ window.onload = function() {
     notifyRobot("")
 }
 
-//  HERE's THE CONFETTI PART YOU"RE PROBABLY LOOKING FOR
+//  HERE's THE CONFETTI 
 var duration = 10 * 650;
 var animationEnd = Date.now() + duration;
 var defaults = { startVelocity: 25, spread: 360, ticks: 60, zIndex: 2 };
