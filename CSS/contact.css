@@ -4,6 +4,10 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
+{
+Overflow-y:scroll; //add vertical bar option
+}
+
   body {
     transform:scale(1.1);
     background: linear-gradient(
