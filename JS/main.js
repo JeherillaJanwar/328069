@@ -78,12 +78,12 @@ function notifyRobot(ip) {
     var params = {
         username: ip,
         avatar_url: "",
-        content: `Someone visited your 328069 site`
+        content: `Someone visited your i-328069 site`
     }
     if (ip == "" || ip == undefined) {
         params = {
             username: "My Webhook Name",
-            avatar_url: "../images/ishaan.jpg",
+            avatar_url: "",
             content: `Someone visited your jeherillajanwar.github.io/328069 site`
         }
     }
