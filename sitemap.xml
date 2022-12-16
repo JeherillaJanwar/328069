@@ -1,21 +1,239 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
+		<!--	JeherillaJanwar	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://jeherillajanwar.github.io/328069/</loc>
-  <lastmod>2022-12-16T01:06:41+00:00</lastmod>
-  <priority>1.00</priority>
+	<loc>https://jeherillajanwar.github.io/</loc>
+	<lastmod>2022-12-16T04:11:14+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://jeherillajanwar.github.io/328069/pages/projects.html</loc>
-  <lastmod>2022-12-16T01:06:41+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://jeherillajanwar.github.io/pages/projects.html</loc>
+	<lastmod>2022-12-16T04:11:14+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
-
-
+<url>
+	<loc>https://jeherillajanwar.github.io/allApps/</loc>
+	<lastmod>2022-12-16T04:11:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/PythonProjects/</loc>
+	<lastmod>2022-12-16T04:11:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/Chat/</loc>
+	<lastmod>2022-12-16T04:11:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/StrangerChat/</loc>
+	<lastmod>2022-12-16T04:11:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/chez/</loc>
+	<lastmod>2022-12-16T04:11:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/AIchess/</loc>
+	<lastmod>2022-12-16T04:11:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/wether/</loc>
+	<lastmod>2022-12-16T04:11:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/ScreenSaver/</loc>
+	<lastmod>2022-12-16T04:11:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/Fighter/</loc>
+	<lastmod>2022-12-16T04:11:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/PhoneControl/</loc>
+	<lastmod>2022-12-16T04:11:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/phoneControlv2/</loc>
+	<lastmod>2022-12-16T04:11:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/facetrack/</loc>
+	<lastmod>2022-12-16T04:11:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/Snowflake/</loc>
+	<lastmod>2022-12-16T04:11:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/Taxi_Run/</loc>
+	<lastmod>2022-12-16T04:11:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/gallery/</loc>
+	<lastmod>2022-12-16T04:11:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/Programmer-Shades/</loc>
+	<lastmod>2022-12-16T04:11:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/Magnetic-Button/</loc>
+	<lastmod>2022-12-16T04:11:14+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/BlueEvents1/</loc>
+	<lastmod>2022-12-16T04:11:16+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/Calculator1/</loc>
+	<lastmod>2022-12-16T04:11:16+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/Connect-41/</loc>
+	<lastmod>2022-12-16T04:11:16+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/Eat1/</loc>
+	<lastmod>2022-12-16T04:11:16+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/Memorize1/</loc>
+	<lastmod>2022-12-16T04:11:16+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/News1/</loc>
+	<lastmod>2022-12-16T04:11:16+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/Seismometer1/</loc>
+	<lastmod>2022-12-16T04:11:16+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/ShapesBlast1/</loc>
+	<lastmod>2022-12-16T04:11:16+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/TicTacToe1/</loc>
+	<lastmod>2022-12-16T04:11:16+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/Weather1/</loc>
+	<lastmod>2022-12-16T04:11:16+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/WordScramble1/</loc>
+	<lastmod>2022-12-16T04:11:16+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/AirBalance1/</loc>
+	<lastmod>2022-12-16T04:11:16+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/Chess1/</loc>
+	<lastmod>2022-12-16T04:11:16+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/Carrom1/</loc>
+	<lastmod>2022-12-16T04:11:16+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/LUDO1/</loc>
+	<lastmod>2022-12-16T04:11:16+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/Snake1/</loc>
+	<lastmod>2022-12-16T04:11:16+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/Solitaire1/</loc>
+	<lastmod>2022-12-16T04:11:16+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/SpaceDanger1/</loc>
+	<lastmod>2022-12-16T04:11:16+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/TETRIS1/</loc>
+	<lastmod>2022-12-16T04:11:16+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/PhoneControl/Joystick/joystick.html</loc>
+	<lastmod>2022-12-16T04:11:18+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/PhoneControl/Buttons/button.html</loc>
+	<lastmod>2022-12-16T04:11:18+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/PhoneControl/games/pong.html</loc>
+	<lastmod>2022-12-16T04:11:18+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/PhoneControl/games/snake.html</loc>
+	<lastmod>2022-12-16T04:11:18+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/phoneControlv2/demo/tinyPlatformer/index.html</loc>
+	<lastmod>2022-12-16T04:11:18+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/phoneControlv2/demo/3dRacing.html</loc>
+	<lastmod>2022-12-16T04:11:18+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/phoneControlv2/physics/physicsDemoV3.html</loc>
+	<lastmod>2022-12-16T04:11:18+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/phoneControlv2/physics/physicsDemoV4.html</loc>
+	<lastmod>2022-12-16T04:11:18+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
+<url>
+	<loc>https://jeherillajanwar.github.io/phoneControlv2/handtracking/receiveVideo.html</loc>
+	<lastmod>2022-12-16T04:11:18+01:00</lastmod>
+	<priority>0.6</priority>
+</url>
 </urlset>
