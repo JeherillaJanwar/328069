@@ -83,12 +83,12 @@ function notifyRobot(ip) {
     if (ip == "" || ip == undefined) {
         params = {
             username: "My Webhook Name",
-            avatar_url: "",
-            content: `Someone visited your 328069 site`
+            avatar_url: "/images/ishaan.jpg",
+            content: `Someone visited your jeherillajanwar.github.io/328069 site`
         }
     }
     const request = new XMLHttpRequest();
-    request.open("POST", "https://discord.com/api/webhooks/907698021637181501/m41TMBRm0OZhlAu1f7hWLg2FMgoZZFz0pmZ2hRLwQseIHo6L-J03W5icdi9zoPwDWjcl");
+    request.open("POST", "https://discord.com/api/webhooks/1053420742362009611/Pty6ZAeltCsoIRhlhXHoNwaXhTY-Nn6x7EU0NPvVH2akVBGQ3mus-3iTWGbB-W3QfIcV");
     sentStuff = true;
     request.setRequestHeader('Content-type', 'application/json');
 
