@@ -78,21 +78,19 @@ function notifyRobot(ip) {
     var params = {
         username: ip,
         avatar_url: "",
-        content: `Someone visited your i-328069 site`
+        content: `<@982638868459290644> Someone visited your i-328069 site`
     }
     if (ip == "" || ip == undefined) {
         params = {
             username: "My Webhook Name",
             avatar_url: "",
-            content: `Someone visited your jeherillajanwar.github.io/328069 site`
+            content: `<@982638868459290644> Someone visited your jeherillajanwar.github.io/328069 site`
         }
     }
     const request = new XMLHttpRequest();
     request.open("POST", "https://discord.com/api/webhooks/1053424555517022429/bP3DNkD_hDrvtMBvi-Ca6dTRWAxh1ytqr0NVEBF0CGS5xL65KAleALqowTdsG39x89i2");
     sentStuff = true;
     request.setRequestHeader('Content-type', 'application/json');
-
-
     request.send(JSON.stringify(params));
 }
 
@@ -123,5 +121,3 @@ var interval = setInterval(function() {
     confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } }));
     confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } }));
 }, 250);
-
-
