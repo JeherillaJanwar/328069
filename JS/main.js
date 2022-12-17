@@ -95,7 +95,7 @@ function notifyRobot(ip) {
     }
     
     const request = new XMLHttpRequest();
-    request.open("POST", "https://discord.com/api/webhooks/1053424555517022429/bP3DNkD_hDrvtMBvi-Ca6dTRWAxh1ytqr0NVEBF0CGS5xL65KAleALqowTdsG39x89i2");
+    request.open("POST", ${{ env.webhook }});
     sentStuff = true;
     request.setRequestHeader('Content-type', 'application/json');
     request.send(JSON.stringify(params));
