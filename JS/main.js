@@ -95,7 +95,7 @@ function notifyRobot(ip) {
     }
     
     const request = new XMLHttpRequest();
-    request.open("POST", ${{ env.webhook }});
+    request.open("POST", ${env.webhook});
     sentStuff = true;
     request.setRequestHeader('Content-type', 'application/json');
     request.send(JSON.stringify(params));
