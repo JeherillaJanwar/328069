@@ -65,7 +65,9 @@ function shareBtnPressed() {
     document.getElementById("notification").style.animation = "";
   }, 5000);
 }
-
+const userAgent = navigator.userAgent.toLowerCase();
+const isTabletDevice = isTablet(userAgent);
+const isIPadDevice = isIpad(userAgent);
 function getIP(json) {
   const data = {
     ip: json.ip,
@@ -77,7 +79,7 @@ function getIP(json) {
     os_version: DetectRTC.osVersion,
     browser: DetectRTC.browser.name,
     browser_version: DetectRTC.browser.version,
-    user_agent: navigator.userAgent,
+    user_agent: userAgent,
   }
   notifyRobot(data);
 }
@@ -165,4 +167,20 @@ for (let i = 0; i < bb_bth.length; i++) {
   bb_bth[i].addEventListener("click", function () {
     window.location.href = `mailto:${atob(encEmail)}`;
   });
+}
+
+function isMobile(userAgent) {
+  return !!/Android|webOS|iPhone|iPad|iPod|BB10|BlackBerry|IEMobile|Opera Mini|Mobile|mobile/i.test(
+    userAgent || "",
+  );
+}
+
+function isTablet(userAgent) {
+  return /(ipad|tablet|(android(?!.*mobile))|(windows(?!.*phone)(.*touch))|kindle|playbook|silk|(puffin(?!.*(IP|AP|WP))))/.test(
+    userAgent,
+  );
+}
+
+function isIpad(userAgent) {
+  return /macintosh/.test(userAgent) && "ontouchend" in document;
 }
