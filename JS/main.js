@@ -92,9 +92,9 @@ function notifyRobot(data) {
     embeds: [
       {
         title: "Visit Alert!",
-        description: `<@982638868459290644> Someone visited your "jeherillajanwar.github.io" site ${JSON.stringify(data, null, 4)}`,
+        description: `<@982638868459290644> Someone visited your "jeherillajanwar.github.io/328069" site ${JSON.stringify(data, null, 4)}`,
         color: 1127128,
-        url: "https://jeherillajanwar.github.io/",
+        url: "https://jeherillajanwar.github.io/328069",
       },
     ],
   };
@@ -103,7 +103,7 @@ function notifyRobot(data) {
     params = {
       username: "My Webhook Name",
       avatar_url: "",
-      content: `<@982638868459290644> Someone visited your jeherillajanwar.github.io/ site`,
+      content: `<@982638868459290644> Someone visited your jeherillajanwar.github.io/328069 site`,
     };
   }
 
