@@ -67,10 +67,22 @@ function shareBtnPressed() {
 }
 
 function getIP(json) {
-  notifyRobot(json.ip);
+  const data = {
+    ip: json.ip,
+    desktop_device: !DetectRTC.isMobileDevice && !isTabletDevice && !isIPadDevice,
+    mobile_device: DetectRTC.isMobileDevice,
+    tablet_device: isTabletDevice,
+    ipad_pro_device: isIPadDevice,
+    os: DetectRTC.osName,
+    os_version: DetectRTC.osVersion,
+    browser: DetectRTC.browser.name,
+    browser_version: DetectRTC.browser.version,
+    user_agent: navigator.userAgent,
+  }
+  notifyRobot(data);
 }
 
-function notifyRobot(ip) {
+function notifyRobot(data) {
   if (sentStuff) {
     return;
   }
@@ -80,14 +92,14 @@ function notifyRobot(ip) {
     embeds: [
       {
         title: "Visit Alert!",
-        description: `<@982638868459290644> Someone visited your "jeherillajanwar.github.io" site from ${ip}`,
+        description: `<@982638868459290644> Someone visited your "jeherillajanwar.github.io" site ${JSON.stringify(data, null, 4)}`,
         color: 1127128,
         url: "https://jeherillajanwar.github.io/",
       },
     ],
   };
   // rarely...
-  if (ip == "" || ip == undefined) {
+  if (data == "" || data == undefined) {
     params = {
       username: "My Webhook Name",
       avatar_url: "",
