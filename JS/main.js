@@ -1,4 +1,4 @@
-var getIP;
+let getIP;
 let typed = "";
 const element = document.querySelector(".typity");
 
@@ -71,16 +71,19 @@ const isIPadDevice = isIpad(userAgent);
 function getIP(json) {
   const data = {
     ip: json.ip,
-    desktop_device: !DetectRTC.isMobileDevice && !isTabletDevice && !isIPadDevice,
+    desktop_device:
+      !DetectRTC.isMobileDevice && !isTabletDevice && !isIPadDevice,
     mobile_device: DetectRTC.isMobileDevice,
     tablet_device: isTabletDevice,
     ipad_pro_device: isIPadDevice,
     os: DetectRTC.osName,
     os_version: DetectRTC.osVersion,
+    isChrome: DetectRTC.browser.isChrome,
+    isPrivateBrowsing: DetectRTC.browser.isPrivateBrowsing,
     browser: DetectRTC.browser.name,
-    browser_version: DetectRTC.browser.version,
+    browser_version: DetectRTC.browser.fullVersion,
     user_agent: userAgent,
-  }
+  };
   notifyRobot(data);
 }
 
